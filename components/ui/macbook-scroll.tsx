@@ -185,10 +185,10 @@ export const Lid = ({
         <Card className={`w-full h-[100%] ${getBackgroundColor(index)} rounded-xl text-center relative`}>
           <CardContent className="flex flex-col justify-center items-center p-6 relative">
           <div className="absolute left-4 bottom-4 w-[100px] h-[100px] transform rotate-[-15deg] shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)]">
-              <img width={150} height={150} src={imageUrls[index * 2]} className="w-full h-full rounded-xl" alt={`Image ${index * 2}`} />
+              <Image width={150} height={150} src={imageUrls[index * 2]} className="w-full h-full rounded-xl" alt={`Image ${index * 2}`} />
             </div>
             <div className="absolute right-4 bottom-4 w-[100px] h-[100px] transform rotate-[15deg] shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)]">
-              <img width={150} height={150} src={imageUrls[index * 2 + 1]} className="w-full h-full rounded-xl" alt={`Image ${index * 2 + 1}`} />
+              <Image width={150} height={150} src={imageUrls[index * 2 + 1]} className="w-full h-full rounded-xl" alt={`Image ${index * 2 + 1}`} />
             </div>
             {index === 0 && (
               <>
